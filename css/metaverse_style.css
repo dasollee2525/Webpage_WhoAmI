@@ -1,0 +1,54 @@
+body {
+  background-image: url('../Meta_img/meta_2.jpg');
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+.vid {
+  float: left;
+  position: absolute;
+  width: 40%;
+  margin: 150px 50px;
+  z-index: 1;
+  border: double 7px gray;
+}
+video {
+  width: 100%;
+}
+.content {
+  float: right;
+  position: absolute;
+  height: auto;
+  width: 75%;
+  top: 0;
+  right: 0;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  z-index: 0;
+  color: white;
+}
+.words {
+  margin-left: 35%;
+  margin-right: 50px;
+}
+.words h1 {
+  font-size: 60px;
+}
+.words h2 {
+  font-style: italic;
+  font-weight: bold;
+}
+.words img {
+  opacity: 0.8;
+  width: 70%;
+}
+a {
+  text-decoration-color: none;
+  color: white;
+}
+@media screen and (max-width: 720px) {
+  .vid {
+    display: none;
+  }
+  .words {
+    margin: 10px;
+  }
+}
